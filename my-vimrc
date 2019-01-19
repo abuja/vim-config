@@ -9,6 +9,9 @@ set autoindent
 set directory=$HOME/.vim/tmp/
 set incsearch
 
+let g:netrw_list_hide='.*\.pyc$,__pycache__'
+
 autocmd filetype yaml setlocal shiftwidth=2 softtabstop=2 tabstop=2
 autocmd filetype terraform setlocal shiftwidth=2 softtabstop=2 tabstop=2
 autocmd filetype python setlocal cc=80
+autocmd bufenter Jenkinsfile set syntax=groovy
