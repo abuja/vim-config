@@ -9,6 +9,7 @@ set autoindent
 set directory=$HOME/.vim/tmp/
 set incsearch
 set clipboard=unnamed
+set clipboard=unnamedplus
 
 autocmd filetype yaml setlocal shiftwidth=2 softtabstop=2 tabstop=2
 autocmd filetype terraform setlocal shiftwidth=2 softtabstop=2 tabstop=2
