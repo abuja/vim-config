@@ -10,6 +10,7 @@ set autoindent
 set directory=$HOME/.vim/tmp/
 set incsearch
 set clipboard=unnamed
+set clipboard=unnamedplus
 set backspace=indent,eol,start
 
 autocmd filetype yaml setlocal shiftwidth=2 softtabstop=2 tabstop=2
