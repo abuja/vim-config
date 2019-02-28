@@ -9,3 +9,4 @@ $> ln -s vim-config/my-vimrc .vimrc
 
 * https://github.com/hashivim/vim-terraform
 * https://github.com/fisadev/vim-isort
+* https://github.com/vim-airline/vim-airline
